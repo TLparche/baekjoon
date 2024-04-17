@@ -22,11 +22,22 @@ for i in range(n):
             while 2 * index <= size:
                 left = 2 * index
                 right = 2 * index + 1
-                if right <= size and heap[left] > heap[right]:
-                    temp = right
+                if right <= size:
+                    if abs(heap[left]) > abs(heap[right]):
+                        temp = right
+                    elif abs(heap[left]) == abs(heap[right]):
+                        if heap[left] > heap[right]:
+                            temp = right
+                        else:
+                            temp = left
+                    else:
+                        temp = left
                 else:
                     temp = left
-                if heap[index] > heap[temp]:
+                if abs(heap[index]) > abs(heap[temp]):
+                    heap[index], heap[temp] = swap(heap[index], heap[temp])
+                    index = temp
+                elif abs(heap[index]) == abs(heap[temp]) and heap[index] > heap[temp]:
                     heap[index], heap[temp] = swap(heap[index], heap[temp])
                     index = temp
                 else:
@@ -39,6 +50,7 @@ for i in range(n):
             if abs(heap[temp]) < abs(heap[index]):
                 break
             elif abs(heap[temp]) == abs(heap[index]):
-
+                if heap[temp] < heap[index]:
+                    break
             heap[index], heap[temp] = swap(heap[index], heap[temp])
             index = temp
