@@ -1,6 +1,6 @@
 import sys
 
-n, s = map(int, sys.stdin.readline().strip().split())
+n = int(sys.stdin.readline().strip())
 numbers = sorted(list(map(int, sys.stdin.readline().strip().split())))
 
 left = 0
