@@ -1,0 +1,22 @@
+result = ("DR"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrDL"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFlDR"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrDL"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFlDR"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrDL"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFlDR"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrDL"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFlDR"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrDL"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFlDR"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrDL"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFlDR"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrDL"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFl"
+          "uFuuFuuFuuFuuFuuFuuFuuFuuFuuFuuFuuFuuFuuFu"
+          "rFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFrrFr"
+          "dFddFddFddFddFddFddFddFddFddFddFddFddFddFddFd"
+          "lFllFllFllFllFllFllFllFllFllFllFllFllFllFllFl"
+          )
+
+print(result)
